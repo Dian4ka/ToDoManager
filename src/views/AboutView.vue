@@ -1,5 +1,21 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Про застосунок</h1>
+    <p>
+      Це простий менеджер завдань, створений для демонстрації функціоналу
+      Vue.js.
+    </p>
   </div>
 </template>
+
+<script>
+export default {
+  name: "AboutView",
+};
+</script>
+
+<style>
+.about {
+  margin: 20px;
+}
+</style>
